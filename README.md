@@ -1,3 +1,3 @@
-# CourseProject
-
-Please fork this repository and paste the github link of your fork on Microsoft CMT. Detailed instructions are on Coursera under Week 1: Course Project Overview/Week 9 Activities.
+This project was created to analyze local sentiment about weather in selected cities,
+using both the Twitter API and National Weather Service API. This project can be run using
+the Flask framework.
