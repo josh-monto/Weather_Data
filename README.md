@@ -1,5 +1,11 @@
 # CS 410 Final Project
 
+The video presentation can be found here: https://uofi.box.com/s/palrjvvnq8ifucwd66v6xzlhxgc3tw0t
+
+The full documentation submission is found in the Final Project Documentation PDF
+
+Instructions for running application can be found below.
+
 This project was created to analyze local sentiment about weather in selected cities,
 using both the Twitter API and National Weather Service API. This project leverages Flask and D3.js.
 
