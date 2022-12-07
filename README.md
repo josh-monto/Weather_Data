@@ -11,26 +11,30 @@ using both the Twitter API and National Weather Service API. This project levera
 
 In order to run the application, you need Python and Node/NPM installed on your machine.
 
-Project was created using:
+The project was created using:
 
 Python 3.10.5
+
 Node 19.2.0
+
 NPM 8.9.13
 
-For information on installing Node and NPM you can look here:
+For information on installing a Node Version Manager (NVM) as well as Node and NPM you can look here:
 
 https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
-Keep in mind a Node version needs to be activated after installing, otherwise the npm command will not work.
+Keep in mind a Node version needs to be activated (using command nvm use ...) after installing, otherwise the npm command will not work.
 
 To clone the repository run the following from the command line:
 ```
 git clone https://github.com/josh-monto/weather_sent.git
 ```
 
-I have included a bearer token for the Twitter API generated from a secondary developer account to ease the process of deploying the application. I don't expect rate limits to be hit, as the application is not a heavy user of data, but in case that does happen let me know.
+A bearer token must be added to a 'bearer_token.txt' file in the root folder of this project to access the Twitter API. I have included a bearer token from a secondary developer account for project evaluation, but I will revoke it once evaluation is over. After that, a token can be generated once a Twitter developer account is created. Instructions here:
 
-This bearer token will be removed once evaluation for the project is over.
+https://developer.twitter.com/en/docs/authentication/oauth-2-0/bearer-tokens
+
+I didn't need a token for the NWS API.
 
 From this point forward it is recommended to run a virtual environment (https://docs.python.org/3.10/library/venv.html). Flask will not function if it is not installed and run from a virtual environment
 
