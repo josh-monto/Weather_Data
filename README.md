@@ -30,15 +30,15 @@ To clone the repository run the following from the command line:
 git clone https://github.com/josh-monto/weather_sent.git
 ```
 
-A bearer token must be added to a 'bearer_token.txt' file in the root folder of this project to access the Twitter API. I have included a bearer token from a secondary developer account for project evaluation, but I will revoke it once evaluation is over. After that, a token can be generated once a Twitter developer account is created. Instructions here:
+A bearer token must be added to a 'bearer_token.txt' file in the root folder of this project to access the Twitter API. This step can be skipped for project evaluation, as I have included a bearer token from a secondary developer account, but I will revoke it once evaluation is over. After that, a token can be generated once a Twitter developer account is created. Instructions here:
 
 https://developer.twitter.com/en/docs/authentication/oauth-2-0/bearer-tokens
 
 I didn't need a token for the NWS API.
 
-From this point forward it is recommended to run a virtual environment (https://docs.python.org/3.10/library/venv.html). Flask will not function if it is not installed and run from a virtual environment
+Now navigate to the project root folder from the command line and set up and activate a virtual environment (https://docs.python.org/3.10/library/venv.html). Flask will not function if it is not installed and run from a virtual environment
 
-Now, with Node and NPM installed (and activated), repository cloned, and virtual environment activated, navigate to the project root folder in the command line and run the following commands to install d3 (must be version 4) and all Python packages:
+Now, with Node and NPM installed (and activated), repository cloned, and virtual environment activated, in the project root folder from the command line, run the following commands to install d3 (must be version 4) and all Python packages:
 
 ```
 npm install --save d3
